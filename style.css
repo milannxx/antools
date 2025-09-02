@@ -91,7 +91,7 @@ header {
     border-radius: 8px;
     border: none;
     width: 118px;
-    padding: 12px 28px;
+    height: 48px;
     cursor: pointer;
 }
 
@@ -245,11 +245,11 @@ header {
 }
 
 .tools_container--card:hover {
-    margin-bottom: 20px;
     background-image: url(img/gradient.png);
     background-repeat: no-repeat;
     background-size: cover;
-    transition: all 0.3s ease;
+    transform: translateY(-20px);
+    transition: all 0.3s ease-in-out;
 }
 
 .tools_container--card--headerFigma {
@@ -364,11 +364,13 @@ header {
 .tools_container--card--box--content--svgSecond {
     fill: white;
     fill-opacity: 0.38;
+    cursor: pointer;
 }
 
 .tools_container--card:hover .tools_container--card--box--content--svgSecond {
     fill: white;
     fill-opacity: 0.55;
+    cursor: pointer;
 }
 
 .tools_container--card--box--content--button {
@@ -512,15 +514,15 @@ header {
     width: 100%;
     max-width: 288px;
     border-radius: 15px;
-    padding: 33px;
+    padding: 28px 22px;
 }
 
 .newTools_container--box--card:hover {
-    margin-bottom: 20px;
     background-image: url(img/gradientNewtools.png);
     background-repeat: no-repeat;
     background-size: cover;
-    transition: all 0.3s ease;
+    transform: translateY(-20px);
+    transition: all 0.3s ease-in-out;
 }
 
 .newTools_container--box--card--headerZeplin {
@@ -628,11 +630,13 @@ header {
     width: 42px;
     height: 42px;
     border-radius: 8px;
+    cursor: pointer;
 }
 
 .newTools_container--box--card--content--images--svgSecond {
     fill: white;
     fill-opacity: 0.38;
+    cursor: pointer;
 }
 
 .newTools_container--box--card--content--button {
@@ -690,7 +694,7 @@ header {
     letter-spacing: 0%;
     background: linear-gradient(
       188.88deg,
-      rgba(252, 252, 252, 0) 20.34%,
+      rgba(252, 252, 252, 0) 13.34%,
       rgba(255, 255, 255, 0.5) 155.72%
     );
     -webkit-background-clip: text;
@@ -827,8 +831,8 @@ footer {
     font-size: 16px;
     line-height: 100%;
     letter-spacing: 0%;
-    padding-top: 25px;
-    padding-bottom: 21px;
+    margin-top: 25px;
+    margin-bottom: 21px;
     color: #FFFFFFE5;
 }
 
@@ -853,7 +857,7 @@ footer {
     line-height: 100%;
     letter-spacing: 0%;
     color: #FFFFFFE5;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
 }
 
 .footer_container--columnSecond--box {
@@ -861,7 +865,7 @@ footer {
 }
 
 .footer_container--columnSecond--box li:nth-child(-n+2) {
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 .footer_container--columnSecond--box--click {
@@ -886,14 +890,14 @@ footer {
     line-height: 100%;
     letter-spacing: 0%;
     color: #FFFFFFE5;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
 }
 .footer_container--columnThird--box {
     list-style: none;
 }
 
 .footer_container--columnThird--box li:first-child {
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 .footer_container--columnThird--box-click {
@@ -918,7 +922,7 @@ footer {
     line-height: 100%;
     letter-spacing: 0%;
     color: #FFFFFFE5;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
 }
 
 .footer_container--columnFourth--box {
@@ -926,7 +930,7 @@ footer {
 }
 
 .footer_container--columnFourth--box li:nth-child(-n+2) {
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 
